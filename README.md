@@ -16,8 +16,6 @@ A C# program with 2 initial inputs that gather both a word and a sentence from a
 | **The program determines if the user input is valid or not when if no input was submitted.** |  | Invalid word. Please try again. |
 | **The program matches full words only.** | brain; I like to brainstorm | The word 'brain' appears 0 time(s) in your sentence. |
 
-The brain, like a muscle, needs a brain workout, good brain care and rest!
-
 ## Setup/Installation Requirements
 1. Clone this repository:
    ```
