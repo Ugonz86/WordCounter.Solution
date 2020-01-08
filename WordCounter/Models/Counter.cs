@@ -7,7 +7,7 @@ namespace WordCounter.Models
         public string WordInput { get; set; }
         public string SentenceInput { get; set; }
 
-        private static Char[] _specialCharacters = { '.', ',', '!', '?', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
+        private static Char[] _specialCharacters = { '.', ',', '!', '?', '#', '$', '%', '&', '_', '-', '+', '=', '~', '`', '^', '*', '(', ')', '{', '}', '[', ']', '1', '2', '3', '4', '5', '6', '7', '8', '9', '@', 'ñ', 'Ñ'};
 
         public RepeatCounter(string word, string sentence)
         {
